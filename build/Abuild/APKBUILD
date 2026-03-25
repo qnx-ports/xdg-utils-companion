@@ -2,7 +2,7 @@
 # Maintainer: Aaron Bassett <abassett@qnx.com>
 pkgname=xdg-utils
 pkgver=1.2.1
-pkgrel=${pkgrel:-0}
+pkgrel=0
 pkgdesc="Basic desktop integration functions"
 url="https://www.freedesktop.org/wiki/Software/xdg-utils/"
 arch="noarch"
@@ -39,7 +39,6 @@ package() {
 }
 
 
-options="$options ${DISABLE_CHECK:+!check}"
 sha512sums="
 9b031d9c65247d0bbe0ce11fba10f88e68fa11e8d0fe5d1b09876edd21f59896a4d3be9a23f10afb7436446580b4d38fba99c622767eecec3951be4f5e4aad3e  xdg-utils-v1.2.1.tar.gz
 65e8c55fa3fc176d40757d2da6eda3360168a82bffcd79d5098d6136e95360fab27ee28dac8c3cc3b4ec7fc3def604ddc0a034f26d9c907e15e81c29384cfd1d  busybox-sed.patch
